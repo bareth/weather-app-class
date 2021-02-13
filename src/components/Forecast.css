@@ -1,0 +1,26 @@
+.card-details{
+    background:white;
+    height:12rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -3px;
+}
+
+.card-details .city{
+    font-size: 1.5rem;
+    color:rgb(101, 100, 100);
+    padding:8px;
+    margin-top:2rem;
+}
+
+.card-details .weather{
+    font-size:0.8rem;
+    
+    padding:8px;
+}
+
+.card-details .temp{
+    font-size: 1.9rem;
+    padding:8px;
+}  

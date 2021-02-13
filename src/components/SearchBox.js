@@ -1,3 +1,4 @@
+import './SearchBox.css';
 import React from 'react';
 
 class SearchBox extends React.Component {
@@ -5,7 +6,7 @@ class SearchBox extends React.Component {
         return (
             <div className="search-box">
                 <form>
-                    <label forhtml="location">Enter the location to check the weather</label>
+                    <label forhtml="location">Enter location for weather information.</label>
                     <input type="text" id="location"></input>
                 </form>
             </div>

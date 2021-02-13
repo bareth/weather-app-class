@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import SearchBox from './SearchBox';
 import Forecast from './Forecast';
@@ -5,13 +6,13 @@ import Forecast from './Forecast';
 class App extends React.Component {
     render() {
         return (
-            <div>
                 <div className="container">
-                    <h4>Weaather App</h4>
-                    <SearchBox/>
-                    <Forecast/>
-                </div>
-            </div> 
+                    <div className="ui">
+                        <h1>Weather App</h1>
+                        <SearchBox/>
+                        <Forecast/>
+                    </div>
+                </div> 
         )
     }
 }
