@@ -2,7 +2,8 @@ import './Forecast.css';
 import React from 'react';
 import defaultImage from '../images/400x300.gif'
 
-const Forecast = () => {
+const Forecast = (props) => {
+    console.log(props);
     return (
         <div className="card">
              <img className="card-image" alt="day or night time image" src={defaultImage}/>
