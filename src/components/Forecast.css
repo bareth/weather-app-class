@@ -1,5 +1,6 @@
 .card-image{
     vertical-align: middle;
+    width:100%;
 }
 .card-details{
     background:white;

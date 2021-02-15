@@ -37,7 +37,7 @@ class App extends React.Component {
             <div className="container">
                 <h1>Weather App</h1>
                 <SearchBox onSearchSubmit={this.onSearchSubmit}/>
-                <Forecast weather={this.state}/>
+                <Forecast cityDet={this.state.cityDet} cityWeather={this.state.cityWeather}/>
             </div> 
         )
     }
